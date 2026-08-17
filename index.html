@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +12,10 @@
   <nav>
     <a class="brand" href="#top">Test1</a>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#projects">プロジェクト</a></li>
+      <li><a href="blog.html">ブログ</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
     </ul>
   </nav>
 </header>
@@ -23,74 +23,73 @@
 <main id="top">
 
   <section class="hero">
-    <h1>Hi, I'm Test1.</h1>
-    <p>I build things and write about what I learn along the way. This is my little corner of the internet.</p>
+    <h1>こんにちは、Test1です。</h1>
+    <p>ものづくりをしながら、学んだことをここに書き残しています。ここは私の小さなインターネットの一角です。</p>
     <div class="links">
-      <a href="#projects">See my work &rarr;</a>
-      <a href="blog.html">Read the blog &rarr;</a>
+      <a href="#projects">作品を見る &rarr;</a>
+      <a href="blog.html">ブログを読む &rarr;</a>
     </div>
   </section>
 
   <section id="about">
-    <h2>About</h2>
+    <h2>自己紹介</h2>
     <p>
-      Replace this with a couple of sentences about who you are, what you do, and
-      what you're interested in. Keep it short — visitors skim.
+      ここには、あなたが誰で、何をしていて、何に興味があるのかを一言で書いてください。
+      訪問者はざっと読むだけなので、短くまとめましょう。
     </p>
     <p>
-      You can mention your background, current focus, and a link to your resume
-      or CV if you have one.
+      経歴や現在取り組んでいること、履歴書やCVへのリンクがあればそれも記載できます。
     </p>
   </section>
 
   <section id="projects">
-    <h2>Projects</h2>
+    <h2>プロジェクト</h2>
     <div class="card-grid">
       <div class="card">
-        <h3>Project One</h3>
-        <p>A short description of what this project does and why you built it.</p>
+        <h3>プロジェクト 1</h3>
+        <p>このプロジェクトが何をするものか、なぜ作ったのかの簡単な説明。</p>
         <div class="tags">
           <span class="tag">JavaScript</span>
           <span class="tag">CSS</span>
         </div>
-        <a href="#">View project &rarr;</a>
+        <a href="#">プロジェクトを見る &rarr;</a>
       </div>
       <div class="card">
-        <h3>Project Two</h3>
-        <p>A short description of what this project does and why you built it.</p>
+        <h3>プロジェクト 2</h3>
+        <p>このプロジェクトが何をするものか、なぜ作ったのかの簡単な説明。</p>
         <div class="tags">
           <span class="tag">Python</span>
         </div>
-        <a href="#">View project &rarr;</a>
+        <a href="#">プロジェクトを見る &rarr;</a>
       </div>
       <div class="card">
-        <h3>Project Three</h3>
-        <p>A short description of what this project does and why you built it.</p>
+        <h3>プロジェクト 3</h3>
+        <p>このプロジェクトが何をするものか、なぜ作ったのかの簡単な説明。</p>
         <div class="tags">
-          <span class="tag">Design</span>
+          <span class="tag">デザイン</span>
         </div>
-        <a href="#">View project &rarr;</a>
+        <a href="#">プロジェクトを見る &rarr;</a>
       </div>
     </div>
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Send me a message and I'll get back to you.</p>
+    <h2>お問い合わせ</h2>
+    <p>メッセージを送っていただければ、返信します。</p>
     <form id="contact-form">
       <div>
-        <label for="name">Name</label>
+        <label for="name">お名前</label>
         <input type="text" id="name" name="name" required>
       </div>
       <div>
-        <label for="email">Email</label>
+        <label for="email">メールアドレス</label>
         <input type="email" id="email" name="email" required>
       </div>
       <div>
-        <label for="message">Message</label>
+        <label for="message">メッセージ</label>
         <textarea id="message" name="message" rows="5" required></textarea>
       </div>
-      <button type="submit">Send</button>
+      <button type="submit">送信</button>
       <p id="form-status"></p>
     </form>
   </section>
@@ -98,7 +97,7 @@
 </main>
 
 <footer>
-  &copy; 2026 Test1. Built with plain HTML, CSS &amp; JS.
+  &copy; 2026 Test1. HTML・CSS・JSで作成。
 </footer>
 
 <script src="script.js"></script>

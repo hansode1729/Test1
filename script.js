@@ -4,7 +4,7 @@ const status = document.getElementById('form-status');
 if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    status.textContent = "Thanks! This form isn't wired up to send anywhere yet — connect it to a service like Formspree or Netlify Forms to receive real messages.";
+    status.textContent = "ありがとうございます！このフォームはまだ送信先が設定されていません。実際にメッセージを受け取るには、Formspree や Netlify Forms などのサービスと連携してください。";
     form.reset();
   });
 }
