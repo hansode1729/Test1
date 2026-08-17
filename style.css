@@ -238,3 +238,23 @@ article.post .date {
 article.post p {
   margin-bottom: 1.2rem;
 }
+
+article.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  display: block;
+  margin: 1.5rem 0;
+}
+
+article.post figure {
+  margin: 1.5rem 0;
+}
+
+article.post figcaption {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
