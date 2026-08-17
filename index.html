@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="brand" href="#top">Test1</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <h1>Hi, I'm Test1.</h1>
+    <p>I build things and write about what I learn along the way. This is my little corner of the internet.</p>
+    <div class="links">
+      <a href="#projects">See my work &rarr;</a>
+      <a href="blog.html">Read the blog &rarr;</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Replace this with a couple of sentences about who you are, what you do, and
+      what you're interested in. Keep it short — visitors skim.
+    </p>
+    <p>
+      You can mention your background, current focus, and a link to your resume
+      or CV if you have one.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>A short description of what this project does and why you built it.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS</span>
+        </div>
+        <a href="#">View project &rarr;</a>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>A short description of what this project does and why you built it.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+        </div>
+        <a href="#">View project &rarr;</a>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>A short description of what this project does and why you built it.</p>
+        <div class="tags">
+          <span class="tag">Design</span>
+        </div>
+        <a href="#">View project &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Send me a message and I'll get back to you.</p>
+    <form id="contact-form">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Test1. Built with plain HTML, CSS &amp; JS.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
